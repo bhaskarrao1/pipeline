@@ -23,10 +23,5 @@ pipeline {
                 sh "mvn package -f my-app"
             }
         }
-        stage('Deploy') { 
-            steps {
-                sh "echo File Deployed"
-            }
-        }
     }
 }
